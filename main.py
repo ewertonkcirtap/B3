@@ -11,7 +11,5 @@ def fundamentus () :
 
     return pd.read_html(r.text,  decimal=',', thousands='.')[0]
 
-df = fundamentus()
-
-#save file
-df.to_csv("B3.csv")
+#Save file
+fundamentus().to_csv("B3.csv", sep="|")
