@@ -13,5 +13,5 @@ def fundamentus () :
 
 df = fundamentus()
 
-
-
+#save file
+df.to_csv("B3.csv")
