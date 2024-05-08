@@ -1,4 +1,4 @@
-# Web Scraping B3
+# Web Scraping Bovespa B3
 
 - IDE : VScode
 - Linguagem : Python
