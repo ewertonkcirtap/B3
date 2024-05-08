@@ -6,4 +6,4 @@
 
 Objetivo : Realizar a extração de informações financeiras e fundamentalistas das empresas com ações listadas na Bovespa.
 
-Lkd : https://www.linkedin.com/in/ewertonkcirtap/
+Linkedin : https://www.linkedin.com/in/ewertonkcirtap/
