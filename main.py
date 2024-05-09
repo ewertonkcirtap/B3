@@ -1,15 +1,1 @@
-import pandas as pd
-import requests
-
-def fundamentus () :
-
-    url = 'http://fundamentus.com.br/resultado.php'
-
-    header = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"}
-
-    r = requests.get(url,headers=header)
-
-    return pd.read_html(r.text,  decimal=',', thousands='.')[0]
-
-#Save csv file
-fundamentus().to_csv("B3.csv", sep="|")
+{"metadata":{"kernelspec":{"language":"python","display_name":"Python 3","name":"python3"},"language_info":{"name":"python","version":"3.10.13","mimetype":"text/x-python","codemirror_mode":{"name":"ipython","version":3},"pygments_lexer":"ipython3","nbconvert_exporter":"python","file_extension":".py"},"kaggle":{"accelerator":"none","dataSources":[],"dockerImageVersionId":30698,"isInternetEnabled":false,"language":"python","sourceType":"notebook","isGpuEnabled":false}},"nbformat_minor":4,"nbformat":4,"cells":[{"cell_type":"code","source":"","metadata":{},"execution_count":null,"outputs":[]}]}
